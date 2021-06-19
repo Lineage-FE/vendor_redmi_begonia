@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/redmi/begonia/proprietary/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
     vendor/redmi/begonia/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/redmi/begonia/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/redmi/begonia/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
+    vendor/redmi/begonia/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/redmi/begonia/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/redmi/begonia/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/redmi/begonia/proprietary/lib64/libmtkaudio_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkaudio_utils.so \
@@ -2141,8 +2143,8 @@ PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService \
     SoterService \
-    HotwordEnrollmentOKGoogleCORTEXM4 \
-    HotwordEnrollmentXGoogleCORTEXM4 \
+    HotwordEnrollmentOKGoogleRT5514P \
+    HotwordEnrollmentXGoogleRT5514P \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
